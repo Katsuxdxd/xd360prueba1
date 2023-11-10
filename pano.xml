@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="17873" start="node1" appversion="6.1.2">
+  <panorama id="node1">
+    <input width="1024" leveltilesize="510" levelbiashidpi="1.000" height="1024" levelingroll="0" overlap="1" levelbias="0.400" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1024" height="1024" preload="0" predecode="0"/>
+      <level width="512" height="512" preload="0" predecode="0"/>
+      <level width="256" height="256" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" tilt="0" fov="70" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max scaletofit="1" tilt="90" fov="120" fovfisheye="360" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata source="" latitude="" tags="Desktop" copyright="" datetime="" comment="" info="" author="" description="" nodeid="node1" title="" longitude="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label borderalpha="1" width="180" border="1" height="20" textcolor="0x000000" borderradius="1" backgroundalpha="1" background="1" textalpha="1" backgroundcolor="0xffffff" enabled="1" bordercolor="0x000000" wordwrap="1"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot id="Point01" use3D="0" customimage="media/icono salir.jpg" target="" tilt="-2.91" fov="10" url="{node2}" distance3D="182.881" customimageheight="32" skinid="ht_node" description="" title="Ir a otro espacio" customimagewidth="32" pan="-296.72"/>
+    </hotspots>
+    <media>
+      <video stretch="1.000" pansize="10.000" id="Element01" nodechangekeep="0" mode="3" loop="2" startmutedmobile="1" fov="32.390" tiltsize="10.000" width="384" ambientlevel="0.000" pan="117.300" field="90.000" tilt="-11.900" roty="0.000" rotx="0.000" level="1.000" clickmode="2" handcursor="1" rotz="0.000" height="768">
+        <source url="media/katherin final.mp4"/>
+      </video>
+      <image id="Element02" width="1018" clickmode="1" height="1409" tilt="-6.060" stretch="1.000" fov="28.860" rotz="0.000" roty="0.000" rotx="0.000" handcursor="1" pan="-52.390">
+        <source url="media/muestra informe de gestion-03.jpg"/>
+      </image>
+      <sound level="0.600" id="Element03" mode="3" ambientlevel="0.000" field="90.000" tilt="2.770" loop="1" tiltsize="10.000" nodechangekeep="1" pansize="10.000" startmutedmobile="0" pan="-13.680">
+        <source url="media/dreams.mp3"/>
+      </sound>
+    </media>
+    <transition zoomfov="20" blendtime="1" type="crossdissolve" blendcolor="0x000000" softedge="0" zoomin="0" zoomspeed="2" zoomoutpause="1" enabled="1" zoomout="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" invertcontrol="1" invertwheel="0" sensitivity="8" rubberband="0" hideabout="0" lockedkeyboard="0" lockedkeyboardzoom="0" speedwheel="1" contextfullscreen="1" contextprojections="0" lockedwheel="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input width="245" leveltilesize="510" levelbiashidpi="1.000" height="245" levelingroll="0" overlap="1" levelbias="0.400" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="245" height="245" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" tilt="0" fov="70" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max scaletofit="1" tilt="90" fov="120" fovfisheye="360" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata source="" latitude="" tags="Pano2VR6" copyright="AFP or licensors" datetime="" comment="" info="" author="SAUL LOEB" description="" nodeid="node2" title="US-ARCHITECTURE-CAPITOL DOME" longitude="" customnodeid=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label borderalpha="1" width="180" border="1" height="20" textcolor="0x000000" borderradius="1" backgroundalpha="1" background="1" textalpha="1" backgroundcolor="0xffffff" enabled="1" bordercolor="0x000000" wordwrap="1"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1"/>
+      <hotspot id="Point01" use3D="0" customimage="media/icono salir.jpg" target="" tilt="3.66" fov="10" url="{node1}" distance3D="285.751" customimageheight="50" skinid="ht_node" description="" title="ir a relatorìa" customimagewidth="50" pan="-350.83"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" blendtime="1" type="crossdissolve" blendcolor="0x000000" softedge="0" zoomin="0" zoomspeed="2" zoomoutpause="1" enabled="1" zoomout="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedmouse="0" invertcontrol="1" invertwheel="0" sensitivity="8" rubberband="0" hideabout="0" lockedkeyboard="0" lockedkeyboardzoom="0" speedwheel="1" contextfullscreen="1" contextprojections="0" lockedwheel="0" dblclickfullscreen="0"/>
+  </panorama>
+  <masternode>
+    <userdata source="" latitude="" tags="" copyright="" datetime="" comment="" info="" author="" description="" nodeid="master" title="" longitude="" customnodeid=""/>
+  </masternode>
+</tour>
